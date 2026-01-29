@@ -12,7 +12,7 @@ html {
 
 
 body {
-    background-color: #0e141b;
+    /* background-color: #0e141b; */
 }
 
 .mainPage {
@@ -62,7 +62,7 @@ body {
     height: 2rem;
     width: 9rem;
     padding-left: 1.5rem;
-    padding-right: 0.5ren;
+    padding-right: 0.5rem;
     align-content: center;
     text-align: center;
     border-radius: 15px;
@@ -74,6 +74,7 @@ body {
     padding: 20px;
     height: 18rem;
     background-color: rgb(31, 15, 31);
+    border-radius: 18px;
 }
 
 .radar,
@@ -84,7 +85,7 @@ body {
 .radar {
     overflow: hidden;
     top: 16.5rem;
-    left: 12rem;
+    left: 27rem;
     margin: -117px;
     width: 248px;
     height: 248px;
@@ -121,15 +122,16 @@ body {
 .radarNunber {
     color: limegreen;
     font-size: 3rem;
-    padding-left: 32rem;
+    padding-left: 35rem;
     margin-left: 10rem;
     padding-bottom: 0;
     height: 1rem;
 }
 
 .radarText {
-    color: rgb(182, 175, 175);;
-    padding-left: 39rem;
+    color: rgb(182, 175, 175);
+    ;
+    padding-left: 43rem;
 }
 
 #radarNunberOne {
@@ -148,14 +150,14 @@ body {
     padding-top: 3.1rem;
 }
 
-.buttonSection {
+.buttonsSection {
     display: flex;
     gap: 30px;
     list-style: none;
     height: 3rem;
 }
 
-.buttonSection li {
+.buttonsSection li {
     font-size: 1.4rem;
     align-content: center;
     text-align: center;
@@ -164,4 +166,54 @@ body {
     border-radius: 27px;
     background-color: rgb(43, 24, 43);
     color: rgb(182, 175, 175);
+}
+
+.cardsSection {
+    display: flex;
+
+    gap: 23px;
+    height: 10rem;
+}
+
+.card {
+    width: 17rem;
+    height: 8rem;
+    background-color: #111;
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.level {
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.greenSide {
+    border-left: solid rgb(38, 219, 38) 0.35rem
+}
+
+.orengeSide {
+    border-left: solid rgb(206, 147, 37) 0.35rem
+}
+
+.criticalLevel {
+    background-color: rgb(185, 33, 33);
+}
+
+
+.highLevel {
+    background-color: rgb(206, 147, 37);
+}
+
+.cardObject {
+    color: rgb(182, 175, 175);
+    font-size: 1.3rem;
+    padding-top: 12px;
+}
+
+[type="range"].cardRange {
+    width: 12rem;
 }
